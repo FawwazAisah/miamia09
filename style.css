@@ -1,0 +1,88 @@
+.banner {
+    background:url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") 
+        no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+
+.dark-mode {
+    background-color: #121212; /* Warna latar belakang hitam */
+    color: #ffffff; /* Warna teks putih */
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: aliceblue;
+    background-color: #dc3545;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.image {
+    float: left;
+    max-width: 30%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.justify-text {
+    text-align: justify;
+}
+.profiles-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+/* CSS untuk navbar */
+.navbar {
+    background-color: #343a40; /* Warna latar belakang */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Ukuran font untuk brand */
+}
+
+.navbar-toggler {
+    border-color: #ffffff; /* Warna border tombol toggle */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* Mengubah warna ikon tombol toggle */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Memposisikan tautan menu ke kanan */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px; /* Jarak antara tautan menu */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Warna teks tautan menu */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Warna teks tautan menu saat dihover */
+}
+
